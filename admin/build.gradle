@@ -1,5 +1,5 @@
 plugins {
-    id "org.sonarqube" version "4.2.1.3168"
+
     id 'org.springframework.boot' version '2.5.3'
     id 'io.spring.dependency-management' version '1.0.13.RELEASE'
     id 'java'
@@ -8,12 +8,7 @@ plugins {
 
 
 
-sonar {
-  properties {
-    property "sonar.projectKey", "Farming-assistant"
-    property "sonar.projectName", "Farming assistant"
-  }
-}
+
 
 group = 'com.fas.supplier'
 version = '0.0.1-SNAPSHOT'
